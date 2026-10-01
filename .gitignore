@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# ---- Project additions ----
+# Secrets: ignore every env file except the example
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Data & ML outputs
+data/output/
+mlruns/
+mlartifacts/
+*.parquet
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
