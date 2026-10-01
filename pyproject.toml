@@ -1,0 +1,7 @@
+[project]
+name = "governed-ai-platform"
+version = "0.1.0"
+description = "Governed multi-agent system for e-commerce returns & refunds"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
